@@ -1,0 +1,62 @@
+
+form.hidden {
+  display: none;
+}
+
+button.hidden {
+  display: none;
+}
+
+span {
+  width: 100px;
+  height: 25px;
+  display: block;
+  margin: 3px auto;
+
+  border-radius: 0.3em;
+  box-shadow: 1px 1px 2px #aaa;
+}
+
+span.tower1 {
+  width: 60px;
+  background: blue;
+}
+
+span.tower2 {
+  width: 80px;
+  background: red;
+}
+span.tower3 {
+  width: 100px;
+  background: yellow;
+}
+span.tower4 {
+  width: 120px;
+  background: green;
+}
+span.tower5 {
+  width: 140px;
+  background: orange;
+}
+span.tower6 {
+  width: 160px;
+  background: purple;
+}
+
+table {
+  border-spacing: 30px;
+  min-height: 240px;
+}
+
+td {
+  border-bottom: 3px solid #aaa;
+  min-width: 140px;
+  min-height: 240px;
+  padding: 10px;
+  background: #ddd;
+  vertical-align: bottom;
+}
+
+td.active {
+  border-bottom: 3px solid #f00;
+}

@@ -4,9 +4,32 @@
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="lib/bundle.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="lib/css/game.css" charset="utf-8">
     <title>Tower of Hanoi</title>
   </head>
   <body>
-
+    <div id="game">
+      <h1>Tower of Hanoi</h1>
+      <h2 id="message"></h2>
+      <form class="game-form" id="game-form">
+        <label>Player Name
+          <input type="text" id="player-name"/>
+        </label>
+        <label>
+          <input type="number" id="disk-number"/>
+        </label>
+        <input type="submit" id="start-button" value="Start"/>
+      </form>
+      <div class="game-board" id="game-board">
+      <table>
+        <tr>
+          <td class="tower" id="0"></td>
+          <td class="tower" id="1"></td>
+          <td class="tower" id="2"></td>
+        </tr>
+      </table>
+      </div>
+      <button id="reset-button" class="hidden">Reset Game</button>
+    </div>
   </body>
 </html>
